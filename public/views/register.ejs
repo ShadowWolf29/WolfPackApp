@@ -1,0 +1,13 @@
+<%- include("partials/header_out") -%>
+<%- include("partials/registerForm") -%>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<% if(noti){ %>
+<script>
+            Swal.fire(
+            '<%= (titulo)  %>',
+            '<%= (contenido)  %>',
+            '<%= (icono)  %>'
+            );
+</script>
+<% } %>
+<%- include("partials/footer") -%>

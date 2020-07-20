@@ -1,0 +1,17 @@
+<%- include("partials/header") -%>
+<%- include("partials/slider") -%>
+<%- include("partials/team") -%>
+<%- include("partials/who") -%>
+<%- include("partials/patrons") -%>
+<%- include("partials/contact") -%>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+<% if(noti){ %>
+<script>
+            Swal.fire(
+            '<%= (titulo)  %>',
+            '<%= (contenido)  %>',
+            '<%= (icono)  %>'
+            );
+</script>
+<% } %>
+<%- include("partials/footer") -%>

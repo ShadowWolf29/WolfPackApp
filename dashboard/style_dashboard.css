@@ -1,0 +1,126 @@
+body{
+    background-color:#212121;
+    
+}
+
+.login-box{
+    background-color: #212121;
+}
+.vertical-parent{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.wolfpack_logo
+{
+    margin-bottom: 20px;
+}
+.brand-logo{
+    margin-left: 5%;
+}
+
+
+nav .nav-wrapper{
+    background: #252525;
+    border-bottom: 3px solid #707070;
+    -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+    box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
+}
+.bebas
+{
+    top: 80px;
+    bottom: 80px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+section input.validate.forms_input::placeholder , textarea.forms_input::placeholder
+{
+    color: #707070;
+}
+
+section input.validate.forms_input, textarea.forms_input
+{
+    margin-top: 1.5em;
+    padding-left: 0.5em;
+    left: 0.5em;
+    padding-right: -2.5px;
+    font-size: 1.2em;
+    font-family: "roboto", sans-serif;
+    background-color: white;
+    color: #252525;
+}   
+  .parallax-container{
+    position: relative;
+    min-height: 80vh;  
+}
+.btn-form{
+    left: 0.5em;
+}
+      
+
+/*nav DE NAVEGACION*/
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #444;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: rgb(80, 0, 0);
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: rgb(163, 3, 3);
+  }
+
+section .input-field label {
+    color: #fff;
+    font-size: 2.5em;
+    font-family: 'Bebas Neue', cursive;
+  }
+  .modal .input-field label {
+    color: #fff;
+    font-size: 1.4em;;
+  }
+
+  textarea#textarea1
+  {
+    min-height: 200px;
+  }
+
+  /* label focus color */
+  .modal .input-field input:focus + label, .input-field input[type=password].forms_input:focus + label,.input-field input[type=text].forms_input:focus + label, .input-field input[type=email].forms_input:focus + label, .input-field textarea.materialize-textarea.forms_input:focus + label  {
+    color: #ED212A;
+  }
+  /* label underline focus color */
+  .input-field input:focus,.input-field input[type=password].forms_input:focus, .input-field input[type=text].forms_input:focus, .input-field input[type=email].forms_input:focus , .input-field textarea.forms_input:focus {
+    border-bottom: 1px solid #ED212A;
+    box-shadow: 0 1px 0 0 #ED212A;
+  }
+  /* valid color */
+  .input-field input.valid, .input-field input[type=password].valid, .input-field input[type=email].valid, .input-field textarea.valid {
+    border-bottom: 1px solid white;
+    box-shadow: 0 1px 0 0 white;
+  }
+  /* invalid color */
+  .input-field input.invalid, .input-field input[type=password].invalid, .input-field input[type=email].invalid, .input-field textarea.invalid {
+    border-bottom: 1px solid #AF0404;
+    box-shadow: 0 1px 0 0 #AF0404;
+  }
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #ED212A;
+  }
+  .input-field:focus {
+    color: #ED212A;
+  }
+     

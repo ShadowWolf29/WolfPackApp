@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="../../style.css">
+    <link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="//cdn.jsdelivr.net/npm/@sweetalert2/theme-dark@3/dark.css" rel="stylesheet">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <meta charset="utf-8" />
+    <title>Wolf Pack</title>
+  </head>
+  <body>
+<section>
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper" >
+                <a id="logo" class="brand-logo left"><img class="fondo_wolf" src="../../img/wolfpack_logo.png" alt="logo"/></a>
+                <a href="#modalini" class=" brand-logo iniciar_sesion hide-on-med-and-down modal-trigger">Iniciar sesión</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger right"><i class="big-icon large material-icons">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="#index">Inicio</a></li>
+                    <li><a href="#equipo">Equipos </a></li>
+                    <li><a href="#Who">Quienes somos</a></li>     
+                    <li><a href="#Patrocinadores">Patrocinadores</a></li>
+                    <li><a href="#Contact">Contactanos</a></li>
+                    <li><a href="tineda.html">Tienda</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <ul class="sidenav" id="mobile-demo">
+        <a class="iniciar modal-trigger" href="#modalini">Iniciar sesión</a>
+        <a href="#" class="close sidenav-close" ><i class="material-icons">close</i></a>
+        <li><a class="sidenav-close" href="#index">Inicio</a></li>
+        <li><a class="sidenav-close" href="#equipo">Equipos </a></li>
+        <li><a class="sidenav-close" href="#Who">Quienes somos</a></li>     
+        <li><a class="sidenav-close" href="#Patrocinadores">Patrocinadores</a></li>
+        <li><a class="sidenav-close" href="#Contact">Contactanos</a></li>
+        <li><a class="sidenav-close" href="tineda.html">Tienda</a></li>
+    </ul>
+    
+    <div id="modalini" class="modal">
+        <div class="modal-content grey darken-3">
+            <h4 class="white-text modal-text center">Iniciar sesión</h4> 
+            <form class="col s12">
+                <div class="row">
+                    <div class="input-field col s12 m12">
+                        <input autoComplete="off" placeholder="example@gmail.com" id="usu" type="text" class="validate white-text"/>
+                        <label for="usu"  class="white-text">Correo o telefono</label>
+                    </div>
+                    <div class="input-field col s12 m12">
+                        <input autoComplete="off" placeholder="Password" id="pas" type="password" class="validate white-text"/>
+                        <label for="pas" class="white-text">Password</label>
+                    </div>
+                    <div class="center"><span class="white-text">¿No tienes cuenta? <a class="carmesi-text" href="/register"><b>Registrate</b></a></span></div>
+                </div>
+                
+        </div>
+        <div class="modal-footer grey darken-4">
+            <a href="#!" class="modal-close red darken-2 waves-effect waves-white btn-flat white-text right">Iniciar sesión</a>
+            <a href="#!" class="modal-close  waves-effect waves-red btn-flat white-text left">Regresar</a>
+        </div>
+    </form>
+    </div>
+
+</section>

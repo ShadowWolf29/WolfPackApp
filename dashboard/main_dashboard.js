@@ -1,0 +1,1 @@
+M.AutoInit();//inicializar todo el js

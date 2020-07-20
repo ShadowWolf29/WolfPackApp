@@ -1,0 +1,23 @@
+{
+  "name": "wolfpackapp",
+  "version": "1.0.0",
+  "description": "wolf pack web system",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Rodrigo Diaz",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongoose": "^5.9.4",
+    "nodemailer": "^6.4.5",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^6.0.1",
+    "sweetalert2": "^9.10.0"
+  }
+}
