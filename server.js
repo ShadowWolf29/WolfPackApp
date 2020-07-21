@@ -8,6 +8,7 @@ const mongoose = require("mongoose");
 const session = require("express-session");
 const passport = require("passport");
 const passportLocalMongoose = ("passport-local-mongoose");
+const morgan = require("morgan")
 
 //Rutas
 var publicRouter = require("./routes/public.js");
@@ -21,8 +22,8 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 //quitar esto ya que sera con sql
-mongoose.connect("mongodb+srv://admin-wolf:Test123@cluster0-si2q6.mongodb.net/WolfPackApp",{useNewUrlParser: true, useUnifiedTopology: true});
-mongoose.set("useCreateIndex",true);
+//mongoose.connect("mongodb+srv://admin-wolf:Test123@cluster0-si2q6.mongodb.net/WolfPackApp",{useNewUrlParser: true, useUnifiedTopology: true});
+//mongoose.set("useCreateIndex",true);
 
 //vista con ejs
 app.set('view engine', 'ejs');

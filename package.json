@@ -10,14 +10,23 @@
   "author": "Rodrigo Diaz",
   "license": "ISC",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "connect-flash": "^0.1.1",
     "ejs": "^3.0.1",
     "express": "^4.17.1",
-    "express-session": "^1.17.0",
+    "express-mysql-session": "^2.1.4",
+    "express-session": "^1.17.1",
+    "express-validator": "^6.6.0",
     "mongoose": "^5.9.4",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
     "nodemailer": "^6.4.5",
     "passport": "^0.4.1",
     "passport-local": "^1.0.0",
     "passport-local-mongoose": "^6.0.1",
     "sweetalert2": "^9.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }
