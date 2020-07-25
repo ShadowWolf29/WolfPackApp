@@ -1,1 +1,3 @@
-M.AutoInit();//inicializar todo el js
+document.addEventListener('DOMContentLoaded', function() {
+    M.AutoInit();//inicializar todo el js 
+  });
