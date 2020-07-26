@@ -30,7 +30,7 @@ app.set('view engine', 'ejs');
 
 //setiando las routas para ser usadas por la app
 app.use('/',publicRouter);
-app.use('/Dashboard',DashboardRouter);
+app.use('/dashboard/',DashboardRouter);
 
 //variables para body parser, para pasar archivos entre el server y vista Y static para obtener
 //recursos desde el local css, img, js, etc. 

@@ -56,6 +56,7 @@
 {
     top: 100px;
     font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.05em;
 }
   p.quienes-parrafo
 {
@@ -65,6 +66,7 @@
     background-image: url("../img/esport.png");
     background-repeat: no-repeat;
     text-align: center;
+    letter-spacing: 0.05em;
 }
   .contenedor-redes 
   {
@@ -94,22 +96,33 @@ iframe
   }
 .sidenav
 {
-    padding-top: 3%;
+    padding-top: 1%;
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
     display: flex;
     flex-direction: column;
     text-align: center;
+    height: 100%;
     width: 100%;
     opacity: 0.95;
     background-color: #141414;
+    letter-spacing: 0.05em;
+}
+.sidenav li
+{
+    margin-top: -1%;
 }
 .sidenav li a
 {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5em;
     color: white;
-    margin-bottom: 4%;
+    letter-spacing: 0.05em;
+}
+.sidenav a:first-child
+{
+    margin-top: 1em;
+    margin-left: 1%;
 }
 .sidenav li:last-child a
 {
@@ -118,7 +131,7 @@ iframe
 
 .sidenav a.close
 {
-    margin-bottom: 20%;
+    margin-bottom: 2em;
     text-align: right;
     float: right;
     color: white;
@@ -130,15 +143,15 @@ iframe
 
 .sidenav a.iniciar
 {
+    margin-top: -0.01em;
     position: absolute;
     text-align: left;
     float: left;
     color: white;
-    width: 50%;
+    width: auto;
 }
 nav .nav-wrapper{
-    background: #252525;
-    border-bottom: 3px solid #707070;
+    background: #252525;    
     -webkit-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
     -moz-box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
     box-shadow: 1px 2px 5px 1px rgba(0,0,0,0.75);
@@ -182,7 +195,7 @@ nav
     margin-left: -2%;
     margin-top: 5px;
     width: auto;
-    height: 50px;
+    height: 3em;
     box-shadow: none;
 }
 
@@ -241,6 +254,7 @@ i.indicador-right:hover , i.indicador-left:hover
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5em;
     margin-bottom: 4%;
+    letter-spacing: 0.05em;
 }
 .collapsible-body.navbar-equipos
 {
@@ -283,11 +297,13 @@ i.indicador-right:hover , i.indicador-left:hover
 {
     margin-top: -50px;
     font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.05em;
 }
 .titulos
 {
     font-family: 'Bebas Neue', cursive;
     margin-top: -13.291px;
+    letter-spacing: 0.05em;
 }
 .fondo-equipos
 {
@@ -298,6 +314,7 @@ i.indicador-right:hover , i.indicador-left:hover
     background-color: #ED212A;
     font-family: 'Bebas Neue', cursive;
     font-size: 2em;
+    letter-spacing: 0.05em;
 }
 .send:hover
 {
@@ -327,6 +344,7 @@ section.fondo-equipos .input-field label {
     color: #fff;
     font-size: 3em;
     font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.05em;
   }
   .modal .input-field label {
     color: #fff;
@@ -375,6 +393,7 @@ section.fondo-equipos .input-field label {
   .modal-text
   {
       font-family: 'Bebas Neue', cursive;
+      letter-spacing: 0.05em;
   }
 /* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 600px) {
@@ -385,6 +404,7 @@ section.fondo-equipos .input-field label {
         font-size: 1.5em;
         background-image: url("");
         background-repeat: no-repeat;
+        letter-spacing: 0.05em;
     }
     iframe
     {
@@ -398,7 +418,7 @@ section.fondo-equipos .input-field label {
         margin-left: 2%;
         margin-top: 5px;
         width: auto;
-        height: 50px;
+        height: 3em;
         box-shadow: none;
         
     }
@@ -407,6 +427,7 @@ section.fondo-equipos .input-field label {
         margin-left: 10%;
         font-family: 'Bebas Neue', cursive;
         font-size: 1.5em;
+        letter-spacing: 0.05em;
     }
 
  }
@@ -416,7 +437,7 @@ section.fondo-equipos .input-field label {
 {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5em;
-    
+    letter-spacing: 0.05em;
 }
 
 nav .nav-wrapper ul li:last-child a
@@ -428,7 +449,7 @@ nav .nav-wrapper ul li:last-child a
     margin-left: 2%;
     margin-top: 5px;
     width: auto;
-    height: 50px;
+    height: 3em;
     box-shadow: none;
 }
  }
@@ -440,14 +461,14 @@ nav .nav-wrapper ul li:last-child a
         margin-left: 2%;
         margin-top: 5px;
         width: auto;
-        height: 50px;
+        height: 3em;
         box-shadow: none;
     }
         nav .nav-wrapper ul li a
     {
         font-family: 'Bebas Neue', cursive;
         font-size: 1.5em;
-        
+        letter-spacing: 0.05em;
     }
 
     nav .nav-wrapper ul li:last-child a
@@ -492,14 +513,14 @@ nav .nav-wrapper ul li:last-child a
         margin-left: 2%;
         margin-top: 5px;
         width: auto;
-        height: 50px;
+        height: 3em;
         box-shadow: none;
     }
 nav .nav-wrapper ul li a
 {
     font-family: 'Bebas Neue', cursive;
     font-size: 1.5em;
-    
+    letter-spacing: 0.05em;
 }
 
 nav .nav-wrapper ul li:last-child a
